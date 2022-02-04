@@ -1,6 +1,6 @@
 {
   "name": "@alirya/score",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Typescript score",
   "dependencies": {
     "@alirya/object": "0.37.0",
