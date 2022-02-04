@@ -1,5 +1,5 @@
 import AssertString from "../assert/score";
-import ScoreError from "../assert/throwable/score";
+import ScoreError from "../assert/throwable/score-parameters";
 import ScoreInterface from "../score";
 
 /**

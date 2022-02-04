@@ -1,1 +1,0 @@
-{"version":3,"file":"replace.d.ts","sourceRoot":"","sources":["../../src/score/replace.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,UAAU,CAAC;AAE7B,oBAAY,OAAO,CAAC,MAAM,SAAS,KAAK,EAAE,OAAO,SAAS,GAAG,IAAI;KAC5D,GAAG,IAAI,MAAM,MAAM,GAAG,GAAG,SAAS,OAAO,GAAG,OAAO,GAAG,MAAM,CAAC,GAAG,CAAC;CACrE,CAAC;AAEF,eAAe,OAAO,CAAC"}

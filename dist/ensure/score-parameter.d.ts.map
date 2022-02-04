@@ -1,1 +1,0 @@
-{"version":3,"file":"score-parameter.d.ts","sourceRoot":"","sources":["../../src/ensure/score-parameter.ts"],"names":[],"mappings":"AAAA,OAAO,cAAc,MAAM,UAAU,CAAC;AACtC,OAAO,KAAK,MAAM,UAAU,CAAC;AAG7B;;;;;;;GAOG;AACH,MAAM,CAAC,OAAO,UAAU,cAAc,CAClC,EACI,KAAK,EACL,KAAK,GACR,EAAG,KAAK,CAAC,MAAM,CAAC,GAAG;IAAC,KAAK,EAAG,CAAC,KAAK,EAAC,MAAM,KAAG,KAAK,CAAA;CAAC,GACnD,cAAc,CAGjB"}
