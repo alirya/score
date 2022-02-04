@@ -1,0 +1,14 @@
+{
+  "name": "@alirya/score",
+  "version": "0.7.0",
+  "description": "Typescript score",
+  "dependencies": {
+    "@alirya/object": "0.37.0",
+    "@alirya/function": "0.15.0"
+  },
+  "homepage": "https://github.com/alirya/score",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alirya/score"
+  }
+}

@@ -8,3 +8,4 @@ export default class Readonly<Container extends Score = Score> implements global
     constructor(subject: Container);
     get score(): Infer<Container>;
 }
+//# sourceMappingURL=readonly.d.ts.map

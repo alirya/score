@@ -16,3 +16,4 @@ export default class Memoize<Container extends Score = Score> implements Readonl
     clear(): void;
     get score(): Infer<Container>;
 }
+//# sourceMappingURL=memoize.d.ts.map

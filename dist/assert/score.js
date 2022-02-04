@@ -1,5 +1,5 @@
 import Guard from "../boolean/score";
-import Callback from "@dikac/t-function/assert/callback";
+import Callback from "@alirya/function/assert/callback-parameters";
 import StringError from "./throwable/score";
 /**
  * assert {@param score} is compatible with {@link ScoreInterface}

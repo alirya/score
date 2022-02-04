@@ -1,4 +1,4 @@
-import Call from "@dikac/t-function/argument/value/call";
+import Call from "@alirya/function/argument/value/call-parameter";
 export default class CallbackFromObject {
     constructor(subject) {
         this.subject = subject;

@@ -1,6 +1,6 @@
 import ScoreContainer from "../../../dist/score";
 import Score from "../../../dist/score/boolean/score";
-import Object_ from "@dikac/t-object/boolean/object";
+import Object_ from "@alirya/object/boolean/object";
 
 
 it("force console log", () => { spyOn(console, 'log').and.callThrough();});

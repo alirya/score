@@ -7,3 +7,4 @@ import Score from "../score";
  * object to be extracted
  */
 export default function Score<ScoreTemplate extends Score>(score: ScoreTemplate): Infer<ScoreTemplate>;
+//# sourceMappingURL=score.d.ts.map

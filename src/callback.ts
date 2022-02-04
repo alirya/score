@@ -1,6 +1,6 @@
 import Score from "./score";
 import CallbackFromObject from "./callback-from-object";
-import Callable from "@dikac/t-function/callable";
+import Callable from "@alirya/function/callable";
 
 export default function Callback<
     FunctionType extends Callable
