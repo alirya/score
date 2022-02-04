@@ -4,7 +4,7 @@ import Call from "@alirya/function/argument/value/call-parameter";
 import Callback from "@alirya/function/callback/callback";
 import Callable from "@alirya/function/callable";
 
-export default class CallbackFromObject<
+export default class CallbackParameter<
     FunctionType extends Callable,
 > implements Readonly<Score<ReturnType<FunctionType>>>
 {

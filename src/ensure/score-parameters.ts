@@ -10,7 +10,7 @@ import ScoreInterface from "../score";
  * @param error
  * throw {@link Error} from {@param error} if {@param score} is not compatible
  */
-export default function Score(
+export default function ScoreParameters(
     score : object,
     error : (score:object)=>Error = ScoreError
 ) : ScoreInterface {

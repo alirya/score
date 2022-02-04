@@ -1,4 +1,4 @@
-import CallbackFromObject from "../dist/callback-from-object";
+import CallbackFromObject from "../dist/callback-parameter";
 import Argument from "@alirya/function/argument/argument";
 import Callback from "@alirya/function/callback/callback";
 

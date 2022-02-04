@@ -1,15 +1,15 @@
 import Score from "./score";
-import CallbackFromObject from "./callback-from-object";
+import CallbackParameter from "./callback-parameter";
 import Callable from "@alirya/function/callable";
 
-export default function Callback<
+export default function CallbackParameters<
     FunctionType extends Callable
 >(
     callback : FunctionType,
     argument : Parameters<FunctionType>
 ) : Readonly<Score<ReturnType<FunctionType>>> {
 
-    return new CallbackFromObject({
+    return new CallbackParameter({
         callback : callback,
         argument : argument
     })

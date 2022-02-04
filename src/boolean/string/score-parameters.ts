@@ -1,6 +1,6 @@
-export default function Score(
-    valid : boolean,
+export default function ScoreParameters(
     score : unknown,
+    valid : boolean,
 ) : string {
 
     if(valid) {
