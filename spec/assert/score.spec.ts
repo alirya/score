@@ -1,5 +1,4 @@
 import Score from "../../dist/assert/score";
-import ScoreInterface from "../../dist/score";
 
 it("enable console log", () => { spyOn(console, 'log').and.callThrough();});
 

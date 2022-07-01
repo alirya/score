@@ -1,6 +1,6 @@
 import Guard from "../boolean/score";
-import Callback from "@alirya/function/assert/callback-parameters";
-import StringError from "./throwable/score-parameters";
+import {CallbackParameters} from "@alirya/function/assert/callback";
+import StringError from "./throwable/score";
 import ScoreInterface from "../score";
 
 
@@ -14,8 +14,8 @@ import ScoreInterface from "../score";
  */
 export default function Score(
     score : object,
-    error : (score:object)=>Error = StringError
+    error : (score:object)=>Error = StringError.Parameters
 ) : asserts score is ScoreInterface {
 
-    Callback(score, Guard, error);
+    CallbackParameters(score, Guard, error);
 }
