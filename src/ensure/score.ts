@@ -1,6 +1,6 @@
-import AssertString from "../assert/score";
-import ScoreError from "../assert/throwable/score";
-import ScoreInterface from "../score";
+import AssertString from '../assert/score';
+import ScoreError from '../assert/throwable/score';
+import ScoreInterface from '../score';
 import ValueInterface from '../score';
 import Value from '../score';
 

@@ -1,9 +1,9 @@
-import Readonly from "../dist/readonly";
+import Readonly from '../dist/readonly';
 
-it("enable console log", () => spyOn(console, 'log').and.callThrough());
+it('enable console log', () => spyOn(console, 'log').and.callThrough());
 
 
-describe("constructor", function() {
+describe('constructor', function() {
 
     let standard = {score:1};
     let wrapped = new Readonly(standard);
@@ -12,7 +12,7 @@ describe("constructor", function() {
 });
 
 
-describe("set", function() {
+describe('set', function() {
 
     let standard = {score:1};
     let wrapped = new Readonly(standard);
@@ -20,12 +20,12 @@ describe("set", function() {
 
     it(`subject score`, () => {
         standard.score = 10;
-        expect(wrapped.score).toBe(10)
+        expect(wrapped.score).toBe(10);
     });
 
     it(`subject`, () => {
         wrapped.subject = {score:20};
-        expect(wrapped.score).toBe(20)
+        expect(wrapped.score).toBe(20);
     });
 });
 

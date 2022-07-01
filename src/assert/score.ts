@@ -1,7 +1,7 @@
-import Guard from "../boolean/score";
-import {CallbackParameters} from "@alirya/function/assert/callback";
-import StringError from "./throwable/score";
-import ScoreInterface from "../score";
+import Guard from '../boolean/score';
+import {CallbackParameters} from '@alirya/function/assert/callback';
+import StringError from './throwable/score';
+import ScoreInterface from '../score';
 
 
 /**

@@ -1,5 +1,5 @@
-import Score from "./score";
-import Infer from "./score/infer";
+import Score from './score';
+import Infer from './score/infer';
 
 /**
  * Readonly wrapper for {@link Score}

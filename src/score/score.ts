@@ -1,5 +1,5 @@
-import Infer from "./infer";
-import Score from "../score";
+import Infer from './infer';
+import Score from '../score';
 
 /**
  * get {@link Score.score} score

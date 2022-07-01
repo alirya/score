@@ -1,9 +1,9 @@
-import Score from "../../dist/score/score";
-import ScoreContainer from "../../dist/score";
+import Score from '../../dist/score/score';
+import ScoreContainer from '../../dist/score';
 
-it("force console log", () => { spyOn(console, 'log').and.callThrough();});
+it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
-describe("compiler compatible", function() {
+describe('compiler compatible', function() {
 
     let score : ScoreContainer<string> = {score:'string'};
 
@@ -11,7 +11,7 @@ describe("compiler compatible", function() {
 
 });
 
-it("result equal", function() {
+it('result equal', function() {
 
     let score : ScoreContainer<string> = {score:'string'};
 

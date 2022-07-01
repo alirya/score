@@ -1,5 +1,5 @@
-import ScoreInterface from "../score";
-import {ExistsParameters} from "@alirya/object/property/boolean/exists";
+import ScoreInterface from '../score';
+import {ExistsParameters} from '@alirya/object/property/boolean/exists';
 
 /**
  * check if {@param score} is compatible with {@link ScoreInterface}

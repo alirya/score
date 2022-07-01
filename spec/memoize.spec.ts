@@ -1,8 +1,8 @@
-import Memoized from "../dist/memoize";
+import Memoized from '../dist/memoize';
 
-it("enable console log", () => spyOn(console, 'log').and.callThrough());
+it('enable console log', () => spyOn(console, 'log').and.callThrough());
 
-describe("test", function() {
+describe('test', function() {
 
     let standard = {score:10};
     let memoize = new Memoized(standard);
@@ -15,17 +15,17 @@ describe("test", function() {
 
     it(`change subject score`, () =>{
         standard.score = 20;
-        expect(standard.score).toBe(20)
+        expect(standard.score).toBe(20);
     });
 
     it(`recheck memoized score`, () => {
 
-        expect(memoize.score).toBe(10)
+        expect(memoize.score).toBe(10);
     });
 
     it(`reset memoize`, () =>{
 
         memoize.clear();
-        expect(memoize.score).toBe(20)
+        expect(memoize.score).toBe(20);
     });
 });

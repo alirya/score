@@ -1,5 +1,5 @@
-import Score from "./score";
-import Infer from "./score/infer";
+import Score from './score';
+import Infer from './score/infer';
 
 /**
  * Wrap {@link Score} and cache its score

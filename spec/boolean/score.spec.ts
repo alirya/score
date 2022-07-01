@@ -1,7 +1,7 @@
-import Type from "../../dist/boolean/score";
-import Score from "../../dist/score";
+import Type from '../../dist/boolean/score';
+import Score from '../../dist/score';
 
-it("force console log", () => { spyOn(console, 'log').and.callThrough();});
+it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
 describe(`compiler compatible`,function() {
 
@@ -16,55 +16,55 @@ describe(`compiler compatible`,function() {
 
 });
 
-describe("unvalidated score", function() {
+describe('unvalidated score', function() {
 
-    describe("valid", function() {
+    describe('valid', function() {
 
-        it("string", () => {
+        it('string', () => {
 
             let score = {score : 'string'};
-            expect(Type(score)).toBe(true)
+            expect(Type(score)).toBe(true);
 
         });
 
-        it("integer", () => {
+        it('integer', () => {
 
             let score = {score : 1};
-            expect(Type(score)).toBe(true)
+            expect(Type(score)).toBe(true);
 
         });
     });
 
-    describe("invalid", function() {
+    describe('invalid', function() {
 
-        it("string", () => {
+        it('string', () => {
 
             let score = {string:'string'};
-            expect(Type(score)).toBe(false)
+            expect(Type(score)).toBe(false);
 
         });
 
-        it("integer", () => {
+        it('integer', () => {
 
             let score = {integer:1};
-            expect(Type(score)).toBe(false)
+            expect(Type(score)).toBe(false);
 
         });
     });
-})
+});
 
 
-describe("validated score", function() {
+describe('validated score', function() {
 
-    describe("valid", function() {
+    describe('valid', function() {
 
-        it("object", () => {
+        it('object', () => {
 
             let score = {score :{}};
-            expect(Type(score)).toBe(true)
+            expect(Type(score)).toBe(true);
         });
 
-        it("class", () => {
+        it('class', () => {
 
             class C {
                 constructor(
@@ -72,19 +72,19 @@ describe("validated score", function() {
                 ){}
             }
 
-            expect(Type(new C)).toBe(true)
+            expect(Type(new C)).toBe(true);
         });
     });
 
-    describe("invalid score", function() {
+    describe('invalid score', function() {
 
-        it("object", () => {
+        it('object', () => {
 
             let score = {};
-            expect(Type(score)).toBe(false)
+            expect(Type(score)).toBe(false);
         });
 
-        it("class", () => {
+        it('class', () => {
 
             class C {
                 constructor(
@@ -92,7 +92,7 @@ describe("validated score", function() {
                 ){}
             }
 
-            expect(Type(new C)).toBe(false)
+            expect(Type(new C)).toBe(false);
         });
     });
-})
+});
