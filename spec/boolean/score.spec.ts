@@ -1,5 +1,5 @@
-import Type from '../../dist/boolean/score';
-import Score from '../../dist/score';
+import Type from '../../dist/boolean/score.js';
+import Score from '../../dist/score.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 

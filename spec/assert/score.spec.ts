@@ -1,4 +1,4 @@
-import Score from '../../dist/assert/score';
+import Score from '../../dist/assert/score.js';
 
 it('enable console log', () => { spyOn(console, 'log').and.callThrough();});
 

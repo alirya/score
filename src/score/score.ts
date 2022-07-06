@@ -1,5 +1,5 @@
-import Infer from './infer';
-import Score from '../score';
+import Infer from './infer.js';
+import Score from '../score.js';
 
 /**
  * get {@link Score.score} score

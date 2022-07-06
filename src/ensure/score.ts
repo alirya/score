@@ -1,8 +1,8 @@
-import AssertString from '../assert/score';
-import ScoreError from '../assert/throwable/score';
-import ScoreInterface from '../score';
-import ValueInterface from '../score';
-import Value from '../score';
+import AssertString from '../assert/score.js';
+import ScoreError from '../assert/throwable/score.js';
+import ScoreInterface from '../score.js';
+import ValueInterface from '../score.js';
+import Value from '../score.js';
 
 /**
  * return {@param score} is compatible with {@link ScoreInterface}

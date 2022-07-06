@@ -1,8 +1,8 @@
-import Score from './score';
-import Callable from '@alirya/function/callable';
-import Argument from '@alirya/function/argument/argument';
-import {CallParameter} from '@alirya/function/argument/value/call';
-import Callback from '@alirya/function/callback/callback';
+import Score from './score.js';
+import Callable from '@alirya/function/callable.js';
+import Argument from '@alirya/function/argument/argument.js';
+import {CallParameter} from '@alirya/function/argument/value/call.js';
+import Callback from '@alirya/function/callback/callback.js';
 
 export function CallbackParameters<
     FunctionType extends Callable

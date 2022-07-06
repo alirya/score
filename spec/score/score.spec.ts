@@ -1,5 +1,5 @@
-import Score from '../../dist/score/score';
-import ScoreContainer from '../../dist/score';
+import Score from '../../dist/score/score.js';
+import ScoreContainer from '../../dist/score.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
