@@ -1,6 +1,6 @@
-import ScoreContainer from '../../../dist/score';
-import Score from '../../../dist/score/boolean/score';
-import Object_ from '@alirya/object/boolean/object';
+import ScoreContainer from '../../../dist/score.js';
+import Score from '../../../dist/score/boolean/score.js';
+import Object_ from '@alirya/object/boolean/object.js';
 
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
@@ -8,7 +8,7 @@ it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
 it('valid', function() {
 
-    let score : ScoreContainer<object> = {score:{}};
+    const score : ScoreContainer<object> = {score:{}};
 
     expect(Score(score, Object_)).toBe(true);
 
@@ -17,7 +17,7 @@ it('valid', function() {
 
 it('invalid', function() {
 
-    let score : ScoreContainer<string> = {score:'string'};
+    const score : ScoreContainer<string> = {score:'string'};
 
     expect(Score(score, Object_)).toBe(false);
 

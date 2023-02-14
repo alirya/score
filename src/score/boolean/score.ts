@@ -1,5 +1,5 @@
-import ScoreInterface from '../../score';
-import ScoreObject from '../../boolean/score';
+import ScoreInterface from '../../score.js';
+import ScoreObject from '../../boolean/score.js';
 
 export default function Score<ScoreType>(
     score : ScoreInterface<unknown>,

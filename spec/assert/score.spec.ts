@@ -1,15 +1,15 @@
-import Score from '../../dist/assert/score';
+import Score from '../../dist/assert/score.js';
 
 it('enable console log', () => { spyOn(console, 'log').and.callThrough();});
 
 it(`compiler compatible`,function() {
 
-    let data : object = {};
+    const data : object = {};
 
     try {
         Score(data);
 
-        let score : unknown = data.score;
+        const score : unknown = data.score;
 
         fail('exception should thrown');
 

@@ -1,6 +1,6 @@
-import BaseScore from '../../score';
-import Validatable from '@alirya/validatable/validatable';
-import Value from '@alirya/value/value';
+import BaseScore from '../../score.js';
+import Validatable from '@alirya/validatable/validatable.js';
+import Value from '@alirya/value/value.js';
 
 export function ScoreParameters(
     score : unknown,

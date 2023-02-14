@@ -1,18 +1,20 @@
-import Type from '../../dist/boolean/score';
-import Score from '../../dist/score';
+import Type from '../../dist/boolean/score.js';
+import Score from '../../dist/score.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
 describe(`compiler compatible`,function() {
 
-    let data : object = {null:null};
+    const data : object = {null:null};
 
     if(Type(data)) {
-        let score : Score = data;
+        const score : Score = data;
     } else {
         // @ts-expect-error
-        let score : Score = data;
+        const score : Score = data;
     }
+
+    it('', ()=>expect(true).toBeTrue());
 
 });
 
@@ -22,14 +24,14 @@ describe('unvalidated score', function() {
 
         it('string', () => {
 
-            let score = {score : 'string'};
+            const score = {score : 'string'};
             expect(Type(score)).toBe(true);
 
         });
 
         it('integer', () => {
 
-            let score = {score : 1};
+            const score = {score : 1};
             expect(Type(score)).toBe(true);
 
         });
@@ -39,14 +41,14 @@ describe('unvalidated score', function() {
 
         it('string', () => {
 
-            let score = {string:'string'};
+            const score = {string:'string'};
             expect(Type(score)).toBe(false);
 
         });
 
         it('integer', () => {
 
-            let score = {integer:1};
+            const score = {integer:1};
             expect(Type(score)).toBe(false);
 
         });
@@ -60,7 +62,7 @@ describe('validated score', function() {
 
         it('object', () => {
 
-            let score = {score :{}};
+            const score = {score :{}};
             expect(Type(score)).toBe(true);
         });
 
@@ -80,7 +82,7 @@ describe('validated score', function() {
 
         it('object', () => {
 
-            let score = {};
+            const score = {};
             expect(Type(score)).toBe(false);
         });
 
