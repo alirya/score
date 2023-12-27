@@ -1,5 +1,5 @@
 import ScoreInterface from '../score.js';
-import {ExistsParameters} from '@alirya/object/property/boolean/exists.js';
+import {ExistsParameters} from '@axiona/object/property/boolean/exists.js';
 
 /**
  * check if {@param score} is compatible with {@link ScoreInterface}

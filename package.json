@@ -1,5 +1,5 @@
 {
-  "name": "@alirya/score",
+  "name": "@axiona/score",
   "version": "0.8.1",
   "description": "Typescript score",
   "publishConfig": {
@@ -12,18 +12,18 @@
     "cache": false
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/alirya/score",
+  "homepage": "https://github.com/axiona/score",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alirya/score"
+    "url": "https://github.com/axiona/score"
   },
   "dependencies": {
     "tslib": "^2.5.0",
-    "@alirya/object": "^0.38.1",
-    "@alirya/function": "^0.17.1",
-    "@alirya/validatable": "^0.21.1",
-    "@alirya/validator": "^0.20.1",
-    "@alirya/message": "^0.13.1"
+    "@axiona/object": "^0.38.1",
+    "@axiona/function": "^0.17.1",
+    "@axiona/validatable": "^0.21.1",
+    "@axiona/validator": "^0.20.1",
+    "@axiona/message": "^0.13.1"
   },
   "devDependencies": {
     "@types/jasmine": "^3.10.2",
