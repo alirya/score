@@ -1,5 +1,5 @@
 import Guard from '../boolean/score.js';
-import {CallbackParameters} from '@alirya/function/assert/callback.js';
+import {CallbackParameters} from '@axiona/function/assert/callback.js';
 import StringError from './throwable/score.js';
 import ScoreInterface from '../score.js';
 

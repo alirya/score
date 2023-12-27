@@ -1,6 +1,6 @@
 import ScoreContainer from '../../../dist/score.js';
 import Score from '../../../dist/score/boolean/score.js';
-import Object_ from '@alirya/object/boolean/object.js';
+import Object_ from '@axiona/object/boolean/object.js';
 
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});

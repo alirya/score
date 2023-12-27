@@ -1,8 +1,8 @@
 import ScoreType from '../../boolean/string/score.js';
-import {CallbackParameters} from '@alirya/function/assert/throwable/callback.js';
+import {CallbackParameters} from '@axiona/function/assert/throwable/callback.js';
 import Score from '../../score.js';
-import Message from '@alirya/message/message.js';
-import {ValidatableParameter, ValidatableParameters} from '@alirya/validator/message/function/validatable.js';
+import Message from '@axiona/message/message.js';
+import {ValidatableParameter, ValidatableParameters} from '@axiona/validator/message/function/validatable.js';
 
 export function ScoreParameters(
     score : unknown,
